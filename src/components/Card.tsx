@@ -7,7 +7,9 @@ function Card(props) {
         width: "350px",
       }}
     >
-      <div className="card-body">Hola mundo</div>
+      <div className="card-body">
+        <CardBody />
+      </div>
     </div>
   );
 }
@@ -21,8 +23,8 @@ export function CardBody() {
         Some quick example text to build on the card title and make up the bulk
         of the card's content. Julio Celaya
       </p>
-      <a href="#" className="card-link">
-        Card link
+      <a href="#" className="btn btn-primary">
+        go
       </a>
       <a href="#" className="card-link">
         Another link
